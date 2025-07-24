@@ -1,0 +1,114 @@
+{
+    [1]: {
+        "AccessLevel": "Public",
+        "Instance": CmdrFunction,
+        "Location": "ReplicatedStorage",
+        "Name": "CmdrFunction",
+        "Path": "game.ReplicatedStorage.CmdrClient.CmdrFunction",
+        "PotentialUse": "Unknown"
+    },
+    [2]: {
+        "AccessLevel": "Public",
+        "Instance": TrowelRemote,
+        "Location": "ReplicatedStorage",
+        "Name": "TrowelRemote",
+        "Path": "game.ReplicatedStorage.GameEvents.TrowelRemote",
+        "PotentialUse": "Unknown"
+    },
+    [3]: {
+        "AccessLevel": "Public",
+        "Instance": FavoriteToolRemote,
+        "Location": "ReplicatedStorage",
+        "Name": "FavoriteToolRemote",
+        "Path": "game.ReplicatedStorage.GameEvents.FavoriteToolRemote",
+        "PotentialUse": "Unknown"
+    },
+    [4]: {
+        "AccessLevel": "Public",
+        "Instance": HarvestRemote,
+        "Location": "ReplicatedStorage",
+        "Name": "HarvestRemote",
+        "Path": "game.ReplicatedStorage.GameEvents.HarvestRemote",
+        "PotentialUse": "Unknown"
+    },
+    [5]: {
+        "AccessLevel": "Public",
+        "Instance": CanSeeShopPack,
+        "Location": "ReplicatedStorage",
+        "Name": "CanSeeShopPack",
+        "Path": "game.ReplicatedStorage.GameEvents.CanSeeShopPack",
+        "PotentialUse": "Unknown"
+    },
+    [6]: {
+        "AccessLevel": "Public",
+        "Instance": LikeGarden,
+        "Location": "ReplicatedStorage",
+        "Name": "LikeGarden",
+        "Path": "game.ReplicatedStorage.GameEvents.LikeGarden",
+        "PotentialUse": "Unknown"
+    },
+    [7]: {
+        "AccessLevel": "Public",
+        "Instance": GetPetCooldown,
+        "Location": "ReplicatedStorage",
+        "Name": "GetPetCooldown",
+        "Path": "game.ReplicatedStorage.GameEvents.GetPetCooldown",
+        "PotentialUse": "Data Retrieval"
+    },
+    [8]: {
+        "AccessLevel": "Public",
+        "Instance": ClaimDinoQuest,
+        "Location": "ReplicatedStorage",
+        "Name": "ClaimDinoQuest",
+        "Path": "game.ReplicatedStorage.GameEvents.ClaimDinoQuest",
+        "PotentialUse": "Unknown"
+    },
+    [9]: {
+        "AccessLevel": "Public",
+        "Instance": ClaimZenQuest,
+        "Location": "ReplicatedStorage",
+        "Name": "ClaimZenQuest",
+        "Path": "game.ReplicatedStorage.GameEvents.ClaimZenQuest",
+        "PotentialUse": "Unknown"
+    },
+    [10]: {
+        "AccessLevel": "Public",
+        "Instance": GetPetMutationNames,
+        "Location": "ReplicatedStorage",
+        "Name": "GetPetMutationNames",
+        "Path": "game.ReplicatedStorage.GameEvents.GetPetMutationNames",
+        "PotentialUse": "Data Retrieval"
+    },
+    [11]: {
+        "AccessLevel": "Public",
+        "Instance": GetServerVersion,
+        "Location": "Other",
+        "Name": "GetServerVersion",
+        "Path": "game.RobloxReplicatedStorage.GetServerVersion",
+        "PotentialUse": "Data Retrieval"
+    },
+    [12]: {
+        "AccessLevel": "Public",
+        "Instance": GetServerChannel,
+        "Location": "Other",
+        "Name": "GetServerChannel",
+        "Path": "game.RobloxReplicatedStorage.GetServerChannel",
+        "PotentialUse": "Data Retrieval"
+    },
+    [13]: {
+        "AccessLevel": "Public",
+        "Instance": WhisperChat,
+        "Location": "Other",
+        "Name": "WhisperChat",
+        "Path": "game.RobloxReplicatedStorage.ExperienceChat.WhisperChat",
+        "PotentialUse": "Unknown"
+    },
+    [14]: {
+        "AccessLevel": "Public",
+        "Instance": GetServerType,
+        "Location": "Other",
+        "Name": "GetServerType",
+        "Path": "game.RobloxReplicatedStorage.GetServerType",
+        "PotentialUse": "Data Retrieval"
+    }
+}

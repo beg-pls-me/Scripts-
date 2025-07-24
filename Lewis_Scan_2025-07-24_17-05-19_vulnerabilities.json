@@ -1,0 +1,1373 @@
+{
+    [1]: {
+        "Description": "The game has FilteringEnabled turned off, which allows clients to directly modify the game state.",
+        "Name": "FilteringEnabled Disabled",
+        "Recommendation": "Enable FilteringEnabled to prevent clients from directly modifying the server game state.",
+        "RiskLevel": "High"
+    },
+    [2]: {
+        "Description": "RemoteEvent 'Activation' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.Players.Ndjdj_bs.PlayerScripts.InputGateway.Activation",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [3]: {
+        "Description": "RemoteEvent 'CanChatWith' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.RobloxReplicatedStorage.CanChatWith",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [4]: {
+        "Description": "RemoteEvent 'SendPlayerBlockList' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.RobloxReplicatedStorage.SendPlayerBlockList",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [5]: {
+        "Description": "RemoteEvent 'ContactListIrisInviteTeleport' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.RobloxReplicatedStorage.ContactListIrisInviteTeleport",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [6]: {
+        "Description": "RemoteEvent 'ReferredPlayerJoin' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.RobloxReplicatedStorage.ReferredPlayerJoin",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [7]: {
+        "Description": "RemoteEvent 'DisplayChatMessage' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.DisplayChatMessage",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [8]: {
+        "Description": "RemoteEvent 'Favorite_Item' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.Favorite_Item",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [9]: {
+        "Description": "RemoteEvent 'PlaySound' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.PlaySound",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [10]: {
+        "Description": "RemoteEvent 'Sell_Inventory' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.Sell_Inventory",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [11]: {
+        "Description": "RemoteEvent 'Spawn_Arrow' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.Spawn_Arrow",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [12]: {
+        "Description": "RemoteEvent 'Close_Frames' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.Close_Frames",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [13]: {
+        "Description": "RemoteEvent 'DeveloperPurchase' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.DeveloperPurchase",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [14]: {
+        "Description": "RemoteEvent 'UnlockEventShopRemote' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.UnlockEventShopRemote",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [15]: {
+        "Description": "RemoteEvent 'FireDrop' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.FireDrop",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [16]: {
+        "Description": "RemoteEvent 'ShecklesClient' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.ShecklesClient",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [17]: {
+        "Description": "RemoteEvent 'AcceptPetGift' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.AcceptPetGift",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [18]: {
+        "Description": "RemoteEvent 'NightQuestRemoteEvent' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.NightQuestRemoteEvent",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [19]: {
+        "Description": "RemoteEvent 'SendClientSpecialEvent' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.SendClientSpecialEvent",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [20]: {
+        "Description": "RemoteEvent 'CosmeticCrateSkipped' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.CosmeticCrateSkipped",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [21]: {
+        "Description": "RemoteEvent 'ExperienceNotificationServicePrompterController' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.ExperienceNotificationServicePrompterController",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [22]: {
+        "Description": "RemoteEvent 'CosmeticPhysicalityService' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.CosmeticPhysicalityService",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [23]: {
+        "Description": "RemoteEvent 'BuyNightEventShopStock' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.BuyNightEventShopStock",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [24]: {
+        "Description": "RemoteEvent 'CosmeticUpgradeService' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.CosmeticUpgradeService",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [25]: {
+        "Description": "RemoteEvent 'FriendshipPotService_RE' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.FriendshipPotService_RE",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [26]: {
+        "Description": "RemoteEvent 'FriendPotLink_RE' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.FriendPotLink_RE",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [27]: {
+        "Description": "RemoteEvent 'UpdateFriendState' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.UpdateFriendState",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [28]: {
+        "Description": "RemoteEvent 'MeteorStrike' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.MeteorStrike",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [29]: {
+        "Description": "RemoteEvent 'SummerHarvestSubmitRemoteEvent' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.SummerHarvestSubmitRemoteEvent",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [30]: {
+        "Description": "RemoteEvent 'HoneyMerchantSubmit_RE' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.HoneyMerchantSubmit_RE",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [31]: {
+        "Description": "RemoteEvent 'PhysicalFirework' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.PhysicalFirework",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [32]: {
+        "Description": "RemoteEvent 'PetMutationClaimAnimation' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.PetMutationClaimAnimation",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [33]: {
+        "Description": "RemoteEvent 'RememberUnlockage' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.SaveSlotService.RememberUnlockage",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [34]: {
+        "Description": "RemoteEvent 'ClaimZenReward' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.ClaimZenReward",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [35]: {
+        "Description": "RemoteEvent 'StartTranquilRadarScan' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.StartTranquilRadarScan",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [36]: {
+        "Description": "RemoteEvent 'PostieSent' might not properly validate client input.",
+        "Name": "Potentially Insecure RemoteEvent",
+        "Path": "game.ReplicatedStorage.PostieSent",
+        "Recommendation": "Implement proper validation for all client inputs before processing them.",
+        "RiskLevel": "Medium"
+    },
+    [37]: {
+        "Description": "Found client-side anti-exploit script 'AntiLeaker' which can potentially be bypassed.",
+        "Name": "Client-Side Anti-Exploit",
+        "Path": "game.Players.Ndjdj_bs.PlayerScripts.AntiLeaker",
+        "Recommendation": "Move security-critical code to the server. Client-side anti-exploit measures can be bypassed.",
+        "RiskLevel": "Medium"
+    },
+    [38]: {
+        "Description": "Found client-side anti-exploit script 'AntiLeaker' which can potentially be bypassed.",
+        "Name": "Client-Side Anti-Exploit",
+        "Path": "game.StarterPlayer.StarterPlayerScripts.AntiLeaker",
+        "Recommendation": "Move security-critical code to the server. Client-side anti-exploit measures can be bypassed.",
+        "RiskLevel": "Medium"
+    },
+    [39]: {
+        "Description": "Script 'Preload' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.Players.Ndjdj_bs.PlayerScripts.Preload",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [40]: {
+        "Description": "Script 'initLazyLoadSound' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.Players.Ndjdj_bs.PlayerScripts.initLazyLoadSound",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [41]: {
+        "Description": "Script 'PlayerScriptsLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.Players.Ndjdj_bs.PlayerScripts.PlayerScriptsLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [42]: {
+        "Description": "Script 'Loader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.Players.Ndjdj_bs.PlayerScripts.CustomPack_New.Loader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [43]: {
+        "Description": "Script 'Loader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.Players.Ndjdj_bs.PlayerScripts.Backpack_V3.Loader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [44]: {
+        "Description": "Script 'LoadScreen' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.Players.Ndjdj_bs.PlayerGui.Intro_SCREEN.LoadScreen",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [45]: {
+        "Description": "Script 'LoadedLocalScript' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.Players.Ndjdj_bs.PlayerGui.Intro_SCREEN.Frame.Loaded.LoadedLocalScript",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [46]: {
+        "Description": "Script 'LoadableVideo' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.CapturesCommon.CapturesCommon.Components.LoadableVideo",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [47]: {
+        "Description": "Script 'LoadingState' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.CapturesCommon.CapturesCommon.Enums.LoadingState",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [48]: {
+        "Description": "Script 'ContactsListLoadErrorReasons' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ContactImporter.ContactImporter.Analytics.Enums.ContactsListLoadErrorReasons",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [49]: {
+        "Description": "Script 'ContactsListLoadingView' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ContactImporter.ContactImporter.ContactsList.Components.ContactsListLoadingView",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [50]: {
+        "Description": "Script 'ContactsListLoadingView' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ContactImporter.ContactImporter.ContactsList.Components.ContactsListLoadingView.ContactsListLoadingView",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [51]: {
+        "Description": "Script 'ContactsUploadErrorModal' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ContactImporter.ContactImporter.ContactsList.Components.ContactsUploadErrorModal",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [52]: {
+        "Description": "Script 'ContactsUploadErrorModal' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ContactImporter.ContactImporter.ContactsList.Components.ContactsUploadErrorModal.ContactsUploadErrorModal",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [53]: {
+        "Description": "Script 'getFFlagContactsListEntryUpdatedTruncationFix' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ContactImporter.ContactImporter.Flags.getFFlagContactsListEntryUpdatedTruncationFix",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [54]: {
+        "Description": "Script 'getFIntContactImporterUploadContactsMax' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ContactImporter.ContactImporter.Flags.getFIntContactImporterUploadContactsMax",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [55]: {
+        "Description": "Script 'getFIntContactImporterUploadContactsMin' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ContactImporter.ContactImporter.Flags.getFIntContactImporterUploadContactsMin",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [56]: {
+        "Description": "Script 'DataLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.DataLoader.DataLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [57]: {
+        "Description": "Script 'discoveryVideoLoadEvent' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.DiscoveryAnalytics.DiscoveryAnalytics.Events.Video.discoveryVideoLoadEvent",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [58]: {
+        "Description": "Script 'OtaPatchLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.DiscoveryOtaPatch.OtaPatchLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [59]: {
+        "Description": "Script 'ClientAppLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ExpChatShared.ExpChatShared.Actions.ClientAppLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [60]: {
+        "Description": "Script 'LocalCharacterLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ExpChatShared.ExpChatShared.Actions.LocalCharacterLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [61]: {
+        "Description": "Script 'UserUnmuted' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ExpChatShared.ExpChatShared.Actions.UserUnmuted",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [62]: {
+        "Description": "Script 'friendsPerLoadGroup' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.FriendsLanding.FriendsLanding.Components.ShowMoreWrapper.helpers.friendsPerLoadGroup",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [63]: {
+        "Description": "Script 'loadFriendGroup' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.FriendsLanding.FriendsLanding.Components.ShowMoreWrapper.helpers.loadFriendGroup",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [64]: {
+        "Description": "Script 'getFFlagFriendsLandingFriendPruningAlertAllowlistOn' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.FriendsLanding.FriendsLanding.Flags.getFFlagFriendsLandingFriendPruningAlertAllowlistOn",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [65]: {
+        "Description": "Script 'getFIntFriendsLandingFriendPruningUpsellMinFriends' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.FriendsLanding.FriendsLanding.Flags.getFIntFriendsLandingFriendPruningUpsellMinFriends",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [66]: {
+        "Description": "Script 'getFIntFriendsLandingFriendPruningUpsellMinInactiveFriends' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.FriendsLanding.FriendsLanding.Flags.getFIntFriendsLandingFriendPruningUpsellMinInactiveFriends",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [67]: {
+        "Description": "Script 'AddFriendsPageLoadAnalytics' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.FriendsLanding.FriendsLanding.FriendsLandingAnalytics.AddFriendsPageLoadAnalytics",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [68]: {
+        "Description": "Script 'OnFormLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.GenericAbuseReporting.GenericAbuseReporting.Analytics.Actions.OnFormLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [69]: {
+        "Description": "Script 'HoldToPlayLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.HoldToPlay.HoldToPlay.HoldToPlayLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [70]: {
+        "Description": "Script 'OtaPatchLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.OtaPatchLoader.OtaPatchLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [71]: {
+        "Description": "Script 'loadOtaPackages' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.OtaPatchLoader.OtaPatchLoader.loadOtaPackages",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [72]: {
+        "Description": "Script 'OtaPatchLoaderTelemetry' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.OtaPatchLoader.OtaPatchLoader.OtaPatchLoaderTelemetry",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [73]: {
+        "Description": "Script 'PageLoadTracker' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.PageLoadTracker.PageLoadTracker",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [74]: {
+        "Description": "Script 'PageLoadConfig' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.PageLoadTracker.PageLoadTracker.PageLoadConfig",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [75]: {
+        "Description": "Script 'PageLoadTypes' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.PageLoadTracker.PageLoadTracker.PageLoadTypes",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [76]: {
+        "Description": "Script 'QRCodeLoadingView' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ProfileQRCode.ProfileQRCode.Components.QRCodeView.QRCodeLoadingView",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [77]: {
+        "Description": "Script 'useHasFailedToLoad' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ProfileQRCode.ProfileQRCode.Components.QRCodeView.useHasFailedToLoad",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [78]: {
+        "Description": "Script 'useHasLoadedSuccessfully' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ProfileQRCode.ProfileQRCode.Components.QRCodeView.useHasLoadedSuccessfully",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [79]: {
+        "Description": "Script 'useLoadingState' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.ProfileQRCode.ProfileQRCode.Networking.useLoadingState",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [80]: {
+        "Description": "Script 'EnumStreamNotificationsLoadingMoreState' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.StreamNotifications.StreamNotifications.EnumStreamNotificationsLoadingMoreState",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [81]: {
+        "Description": "Script 'clearUnreadNotifications' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.StreamNotifications.StreamNotifications.utils.clearUnreadNotifications",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [82]: {
+        "Description": "Script 'LoadableVideoFrame' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Index.VideoUtils.VideoUtils.LoadableVideoFrame",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [83]: {
+        "Description": "Script 'LoadingBar' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppBlox.AppBlox.LoadingBar",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [84]: {
+        "Description": "Script 'SetAppLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Actions.SetAppLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [85]: {
+        "Description": "Script 'ThirdPartyChatSettingsLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Actions.ThirdPartyChatSettingsLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [86]: {
+        "Description": "Script 'ChatLoadingContainer' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Components.ChatLanding.ChatLoading.ChatLoadingContainer",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [87]: {
+        "Description": "Script 'ChatLoadingIndicator' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Components.ChatLanding.ChatLoading.ChatLoadingIndicator",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [88]: {
+        "Description": "Script 'LoadingAvatar' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Components.ChatLanding.ChatLoading.LoadingAvatar",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [89]: {
+        "Description": "Script 'ReloadedMessagesForConversations' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Conversations.Actions.ReloadedMessagesForConversations",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [90]: {
+        "Description": "Script 'SetConversationLoadingStatus' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Conversations.Actions.SetConversationLoadingStatus",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [91]: {
+        "Description": "Script 'reloadAllMessages' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Conversations.Thunks.reloadAllMessages",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [92]: {
+        "Description": "Script 'reloadMessagesForConversations' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Conversations.Thunks.reloadMessagesForConversations",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [93]: {
+        "Description": "Script 'FFlagAppChatContextCardNameLoadingShimmer' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Flags.FFlagAppChatContextCardNameLoadingShimmer",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [94]: {
+        "Description": "Script 'useIsAppLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.Hooks.useIsAppLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [95]: {
+        "Description": "Script 'AppLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.AppChat.installReducer.AppLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [96]: {
+        "Description": "Script 'PageLoadTracker' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppChat.PageLoadTracker",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [97]: {
+        "Description": "Script 'isRunningInStudio' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AppCommonLib.AppCommonLib.isRunningInStudio",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [98]: {
+        "Description": "Script 'authPageload' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.AuthAnalytics.AuthAnalytics.Events.authPageload",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [99]: {
+        "Description": "Script 'getCaptureUploadData' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.CapturesInExperience.CapturesInExperience.Utils.getCaptureUploadData",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [100]: {
+        "Description": "Script 'ClientSettingsLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.ExpChat.ExpChat.Actions.ClientSettingsLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [101]: {
+        "Description": "Script 'ConfigurationObjectsLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.ExpChat.ExpChat.Actions.ConfigurationObjectsLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [102]: {
+        "Description": "Script 'FFlagEasierUnmuting' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.ExpChat.ExpChat.Flags.FFlagEasierUnmuting",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [103]: {
+        "Description": "Script 'reportVersionLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.ExpChat.ExpChat.mountClientApp.reportVersionLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [104]: {
+        "Description": "Script 'ExperienceLoadingScript' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.ExperienceLoadingScript.ExperienceLoadingScript",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [105]: {
+        "Description": "Script 'LoadingScreen' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.ExperienceLoadingScript.ExperienceLoadingScript.LoadingScreen",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [106]: {
+        "Description": "Script 'LoadingScreen3D' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.ExperienceLoadingScript.ExperienceLoadingScript.LoadingScreen3D",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [107]: {
+        "Description": "Script 'loadingScript' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.ExperienceLoadingScript.ExperienceLoadingScript.loadingScript",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [108]: {
+        "Description": "Script 'LoadingScreenReducer' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.ExperienceLoadingScript.ExperienceLoadingScript.Reducers.LoadingScreenReducer",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [109]: {
+        "Description": "Script 'ExecuteJavaScriptInWebView' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.GenericChallenges.GenericChallenges.Utils.ExecuteJavaScriptInWebView",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [110]: {
+        "Description": "Script 'DataLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.GraphQLServer.DataLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [111]: {
+        "Description": "Script 'dataLoaders' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.GraphQLServer.GraphQLServer.graphql.dataLoaders",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [112]: {
+        "Description": "Script 'userProfilesDataLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.GraphQLServer.GraphQLServer.graphql.dataLoaders.userProfilesDataLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [113]: {
+        "Description": "Script 'LoadingOverlay' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.IAPExperience.IAPExperience.Generic.LoadingOverlay",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [114]: {
+        "Description": "Script 'LoadingOverlayState' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.IAPExperience.IAPExperience.Generic.LoadingOverlayState",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [115]: {
+        "Description": "Script 'AppRunService' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.RoactServiceTags.RoactServiceTags.AppRunService",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [116]: {
+        "Description": "Script 'FFlagChromeFixDelayLoadControlLock' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.FFlagChromeFixDelayLoadControlLock",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [117]: {
+        "Description": "Script 'FFlagDebugEnablePageLoadTrackerVisualizer' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.FFlagDebugEnablePageLoadTrackerVisualizer",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [118]: {
+        "Description": "Script 'FFlagFixTopBarSlowLoad' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.FFlagFixTopBarSlowLoad",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [119]: {
+        "Description": "Script 'FFlagLuaAppEdpMediaGalleryPreloadImage' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.FFlagLuaAppEdpMediaGalleryPreloadImage",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [120]: {
+        "Description": "Script 'FFlagLuaAppEnablePageLoadTracker' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.FFlagLuaAppEnablePageLoadTracker",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [121]: {
+        "Description": "Script 'FFlagLuaAppEnablePlayableStateWhenLoading' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.FFlagLuaAppEnablePlayableStateWhenLoading",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [122]: {
+        "Description": "Script 'FFlagLuaAppPlayButtonLoadingPrimary' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.FFlagLuaAppPlayButtonLoadingPrimary",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [123]: {
+        "Description": "Script 'FFlagLuaAppRefactorInfiniteScrollingWithLoadMoreButton' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.FFlagLuaAppRefactorInfiniteScrollingWithLoadMoreButton",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [124]: {
+        "Description": "Script 'FFlagPageLoadAllowImprovedDisconnectTiming' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.FFlagPageLoadAllowImprovedDisconnectTiming",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [125]: {
+        "Description": "Script 'GetFFlagEnableDetailsPageLoadingState' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.GetFFlagEnableDetailsPageLoadingState",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [126]: {
+        "Description": "Script 'getFFlagExpChatAlwaysRunTCS' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.getFFlagExpChatAlwaysRunTCS",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [127]: {
+        "Description": "Script 'GetFFlagFriendsMenuDummyLoadingFriendsFix' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.GetFFlagFriendsMenuDummyLoadingFriendsFix",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [128]: {
+        "Description": "Script 'getFFlagRemoveDataLoaderTimer' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.getFFlagRemoveDataLoaderTimer",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [129]: {
+        "Description": "Script 'getFFlagUserProfilesDataLoaderEnabled' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.getFFlagUserProfilesDataLoaderEnabled",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [130]: {
+        "Description": "Script 'GetFStringLoadingScreenIxpLayer' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.GetFStringLoadingScreenIxpLayer",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [131]: {
+        "Description": "Script 'GetFStringVNGDownloadNowUrl' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.GetFStringVNGDownloadNowUrl",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [132]: {
+        "Description": "Script 'GetFFlagUIBloxEnableButtonLoadingShimmerPanelFix' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SharedFlags.SharedFlags.UIBlox.GetFFlagUIBloxEnableButtonLoadingShimmerPanelFix",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [133]: {
+        "Description": "Script 'LoadingStages' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SocialLuaAnalytics.SocialLuaAnalytics.Analytics.Enums.LoadingStages",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [134]: {
+        "Description": "Script 'reportPromiseLoadingTimeWrapper' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SocialLuaAnalytics.SocialLuaAnalytics.Analytics.Timing.reportPromiseLoadingTimeWrapper",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [135]: {
+        "Description": "Script 'useLoadingTimers' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SocialLuaAnalytics.SocialLuaAnalytics.Analytics.Timing.useLoadingTimers",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [136]: {
+        "Description": "Script 'GetFFlagEnablePartyVoiceOnlyForUnfilteredThreads' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.SquadsCore.SquadsCore.Flags.GetFFlagEnablePartyVoiceOnlyForUnfilteredThreads",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [137]: {
+        "Description": "Script 'SetLocalUserUnder13' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.UserLib.UserLib.Actions.SetLocalUserUnder13",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [138]: {
+        "Description": "Script 'IsLocalUserUnder13' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.UserLib.UserLib.Reducers.IsLocalUserUnder13",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [139]: {
+        "Description": "Script 'PreloadUsersThumbnail' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.UserLib.UserLib.Thunks.PreloadUsersThumbnail",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [140]: {
+        "Description": "Script 'EventDetailsPageLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages._Workspace.VirtualEvents.VirtualEvents.Components.EventDetailsPageLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [141]: {
+        "Description": "Script 'ExperienceLoadingScript' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Workspace.Packages.ExperienceLoadingScript",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [142]: {
+        "Description": "Script 'execute' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.ApolloClient.ApolloClient.link.core.execute",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [143]: {
+        "Description": "Script 'DataLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.DataLoader.DataLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [144]: {
+        "Description": "Script 'Loading' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.Foundation.Foundation.Components.Loading",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [145]: {
+        "Description": "Script 'Loading' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.Foundation.Foundation.Components.Loading.Loading",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [146]: {
+        "Description": "Script 'execution' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.GraphQL.GraphQL.execution",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [147]: {
+        "Description": "Script 'execute' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.GraphQL.GraphQL.execution.execute",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [148]: {
+        "Description": "Script 'ExecutableDefinitionsRule' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.GraphQL.GraphQL.validation.rules.ExecutableDefinitionsRule",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [149]: {
+        "Description": "Script 'createUploadContactsByUser' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.NetworkingContacts-31ab8d40-0.4.2.NetworkingContacts.networkRequests.createUploadContactsByUser",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [150]: {
+        "Description": "Script 'createUploadContactsByUser' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.NetworkingContacts-31ab8d40-1.15.0.NetworkingContacts.networkRequests.createUploadContactsByUser",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [151]: {
+        "Description": "Script 'ReactFiberHotReloading.new' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberHotReloading.new",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [152]: {
+        "Description": "Script 'ReactFiberUnwindWork.new' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberUnwindWork.new",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [153]: {
+        "Description": "Script 'ExecutionEnvironment' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.Shared.Shared.ExecutionEnvironment",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [154]: {
+        "Description": "Script 'loadNextSymbol' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.SocialLibraries.SocialLibraries.RoactPaginator.loadNextSymbol",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [155]: {
+        "Description": "Script 'loadPreviousSymbol' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.SocialLibraries.SocialLibraries.RoactPaginator.loadPreviousSymbol",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [156]: {
+        "Description": "Script 'runStorybookAsSpec' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.SocialLibraries.SocialLibraries.Storybook.runStorybookAsSpec",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [157]: {
+        "Description": "Script 'pruneConsecutiveNewLines' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.SocialLibraries.SocialLibraries.Utils.pruneConsecutiveNewLines",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [158]: {
+        "Description": "Script 'canUploadBundlesAsync' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UGCValidation.UGCValidation.util.canUploadBundlesAsync",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [159]: {
+        "Description": "Script 'validateBundleReadyForUpload' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UGCValidation.UGCValidation.validation.validateBundleReadyForUpload",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [160]: {
+        "Description": "Script 'validateCanLoad' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UGCValidation.UGCValidation.validation.validateCanLoad",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [161]: {
+        "Description": "Script 'validateShoesBundleReadyForUpload' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UGCValidation.UGCValidation.validation.validateShoesBundleReadyForUpload",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [162]: {
+        "Description": "Script 'LoadingStateContainer' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UIBlox.UIBlox.App.Container.LoadingStateContainer",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [163]: {
+        "Description": "Script 'LoadingStatePage' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UIBlox.UIBlox.App.Container.LoadingStatePage",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [164]: {
+        "Description": "Script 'LoadingAlert' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UIBlox.UIBlox.App.Dialog.Alert.LoadingAlert",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [165]: {
+        "Description": "Script 'LoadingStrategy' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UIBlox.UIBlox.App.Loading.Enum.LoadingStrategy",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [166]: {
+        "Description": "Script 'LoadableImage' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UIBlox.UIBlox.App.Loading.LoadableImage",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [167]: {
+        "Description": "Script 'LoadingSpinner' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UIBlox.UIBlox.App.Loading.LoadingSpinner",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [168]: {
+        "Description": "Script 'FontLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.UIBlox.UIBlox.App.Style.Fonts.FontLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [169]: {
+        "Description": "Script 'executor' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.Utils.Utils.executor",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [170]: {
+        "Description": "Script 'loaders' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.Utils.Utils.loaders",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [171]: {
+        "Description": "Script 'prune' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages._Index.Utils.Utils.prune",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [172]: {
+        "Description": "Script 'DataLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CorePackages.Packages.DataLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [173]: {
+        "Description": "Script 'Preload' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.StarterPlayer.StarterPlayerScripts.Preload",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [174]: {
+        "Description": "Script 'initLazyLoadSound' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.StarterPlayer.StarterPlayerScripts.initLazyLoadSound",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [175]: {
+        "Description": "Script 'PlayerScriptsLoader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.StarterPlayer.StarterPlayerScripts.PlayerScriptsLoader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [176]: {
+        "Description": "Script 'Loader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.StarterPlayer.StarterPlayerScripts.CustomPack_New.Loader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [177]: {
+        "Description": "Script 'Loader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.StarterPlayer.StarterPlayerScripts.Backpack_V3.Loader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [178]: {
+        "Description": "Script 'LoadingFriendsPage' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.Settings.Pages.ShareGame.Components.LoadingFriendsPage",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [179]: {
+        "Description": "Script 'LoadingModal' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.Settings.Pages.ShareGame.Components.LoadingModal",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [180]: {
+        "Description": "Script 'ChatServiceRunner' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.Server.ServerChat.ChatServiceRunner",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [181]: {
+        "Description": "Script 'GetFFlagUsePlatformNameForUnknown' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.PurchasePrompt.Flags.GetFFlagUsePlatformNameForUnknown",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [182]: {
+        "Description": "Script 'LoadingFriendsError' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.InGameMenu.Components.InviteFriendsPage.LoadingFriendsError",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [183]: {
+        "Description": "Script 'GetFFlagTruncateDeviceSelection' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.InGameMenu.Flags.GetFFlagTruncateDeviceSelection",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [184]: {
+        "Description": "Script 'GetFFlagEnableInvitePromptLoadingState' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.Flags.GetFFlagEnableInvitePromptLoadingState",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [185]: {
+        "Description": "Script 'GetFFlagVoiceARUnblockingUnmutingEnabled' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.Flags.GetFFlagVoiceARUnblockingUnmutingEnabled",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [186]: {
+        "Description": "Script 'isEngineTruncationEnabledForIngameSettings' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.Flags.isEngineTruncationEnabledForIngameSettings",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [187]: {
+        "Description": "Script 'NumberEmotesLoadedChanged' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.EmotesMenu.Actions.NumberEmotesLoadedChanged",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [188]: {
+        "Description": "Script 'IsLoaded' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.InspectAndBuy.Reducers.IsLoaded",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [189]: {
+        "Description": "Script 'ScreenshotLoadingDialog' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.CoreGui.RobloxGui.Modules.TrustAndSafety.Components.ReportAnything.ScreenshotLoadingDialog",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [190]: {
+        "Description": "Script 'LazyLoadSound' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.ReplicatedStorage.LazyLoadSound",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [191]: {
+        "Description": "Script 'run' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.ReplicatedStorage.CmdrClient.Commands.run",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [192]: {
+        "Description": "Script 'runLines' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.ReplicatedStorage.CmdrClient.Commands.runLines",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [193]: {
+        "Description": "Script 'runif' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.ReplicatedStorage.CmdrClient.Commands.runif",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [194]: {
+        "Description": "Script 'CMDR_Loader' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.ReplicatedStorage.Modules.CMDR_Loader",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [195]: {
+        "Description": "Script 'UpdateAssetsPreloadController' might be using dynamic code execution functions like loadstring().",
+        "Name": "Potential Insecure Code Execution",
+        "Path": "game.ReplicatedStorage.Modules.UpdateAssetsPreloadController",
+        "Recommendation": "Avoid using loadstring() or similar functions that execute code dynamically, especially with user input.",
+        "RiskLevel": "High"
+    },
+    [196]: {
+        "Description": "RemoteEvent 'SeedPackGiverEvent' might allow clients to give themselves rewards.",
+        "Name": "Potentially Insecure Reward System",
+        "Path": "game.ReplicatedStorage.GameEvents.SeedPackGiverEvent",
+        "Recommendation": "Ensure all reward distribution is controlled and validated by the server.",
+        "RiskLevel": "High"
+    }
+}

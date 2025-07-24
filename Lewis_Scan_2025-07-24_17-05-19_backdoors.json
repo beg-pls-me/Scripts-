@@ -1,0 +1,258 @@
+{
+    [1]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "GetServerVersion",
+        "Path": "game.RobloxReplicatedStorage.GetServerVersion",
+        "RiskLevel": "High",
+        "Type": "RemoteFunction"
+    },
+    [2]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "GetServerChannel",
+        "Path": "game.RobloxReplicatedStorage.GetServerChannel",
+        "RiskLevel": "High",
+        "Type": "RemoteFunction"
+    },
+    [3]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "GetServerType",
+        "Path": "game.RobloxReplicatedStorage.GetServerType",
+        "RiskLevel": "High",
+        "Type": "RemoteFunction"
+    },
+    [4]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "CmdrFunction",
+        "Path": "game.ReplicatedStorage.CmdrClient.CmdrFunction",
+        "RiskLevel": "High",
+        "Type": "RemoteFunction"
+    },
+    [5]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "CmdrEvent",
+        "Path": "game.ReplicatedStorage.CmdrClient.CmdrEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [6]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "TrowelRemote",
+        "Path": "game.ReplicatedStorage.GameEvents.TrowelRemote",
+        "RiskLevel": "High",
+        "Type": "RemoteFunction"
+    },
+    [7]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "UnlockEventShopRemote",
+        "Path": "game.ReplicatedStorage.GameEvents.UnlockEventShopRemote",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [8]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "NightQuestRemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.NightQuestRemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [9]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "FavoriteToolRemote",
+        "Path": "game.ReplicatedStorage.GameEvents.FavoriteToolRemote",
+        "RiskLevel": "High",
+        "Type": "RemoteFunction"
+    },
+    [10]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "HighlightRemote",
+        "Path": "game.ReplicatedStorage.GameEvents.HighlightRemote",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [11]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "NightStaffRemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.NightStaffRemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [12]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "ClaimableCodeService",
+        "Path": "game.ReplicatedStorage.GameEvents.ClaimableCodeService",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [13]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "SummerHarvestRemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.SummerHarvestRemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [14]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "RemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.RemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [15]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "HarvestRemote",
+        "Path": "game.ReplicatedStorage.GameEvents.HarvestRemote",
+        "RiskLevel": "High",
+        "Type": "RemoteFunction"
+    },
+    [16]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "ExperienceNotificationServicePrompterController",
+        "Path": "game.ReplicatedStorage.GameEvents.ExperienceNotificationServicePrompterController",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [17]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "NectorStaffRemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.NectorStaffRemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [18]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "HoneyCrafterRemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.HoneyCrafterRemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [19]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "CraftingFailedRemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.CraftingFailedRemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [20]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "SummerHarvestRewardRemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.SummerHarvestRewardRemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [21]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "SummerHarvestSubmitRemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.SummerHarvestSubmitRemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [22]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "RememberUnlockage",
+        "Path": "game.ReplicatedStorage.GameEvents.SaveSlotService.RememberUnlockage",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [23]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "ZenAuraRemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.ZenAuraRemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [24]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "ZenQuestRemoteEvent",
+        "Path": "game.ReplicatedStorage.GameEvents.ZenQuestRemoteEvent",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [25]: {
+        "Description": "Suspicious remote with potential backdoor name",
+        "DetectionMethod": "Name pattern matching",
+        "Name": "GameAnalyticsRemoteConfigs",
+        "Path": "game.ReplicatedStorage.GameAnalyticsRemoteConfigs",
+        "RiskLevel": "High",
+        "Type": "RemoteEvent"
+    },
+    [26]: {
+        "Description": "Suspicious module script with potential backdoor functionality",
+        "DetectionMethod": "Name pattern matching and location",
+        "Name": "Command",
+        "Path": "game.ReplicatedStorage.CmdrClient.Shared.Command",
+        "RiskLevel": "Medium",
+        "Type": "ModuleScript"
+    },
+    [27]: {
+        "Description": "Suspicious module script with potential backdoor functionality",
+        "DetectionMethod": "Name pattern matching and location",
+        "Name": "Command",
+        "Path": "game.ReplicatedStorage.CmdrClient.Types.Command",
+        "RiskLevel": "Medium",
+        "Type": "ModuleScript"
+    },
+    [28]: {
+        "Description": "Suspicious module script with potential backdoor functionality",
+        "DetectionMethod": "Name pattern matching and location",
+        "Name": "LogCommand",
+        "Path": "game.ReplicatedStorage.CmdrClient.Types.AuthorizationMiddleware.LogCommand",
+        "RiskLevel": "Medium",
+        "Type": "ModuleScript"
+    },
+    [29]: {
+        "Description": "Suspicious module script with potential backdoor functionality",
+        "DetectionMethod": "Name pattern matching and location",
+        "Name": "Remotes",
+        "Path": "game.ReplicatedStorage.Modules.Remotes",
+        "RiskLevel": "Medium",
+        "Type": "ModuleScript"
+    },
+    [30]: {
+        "Description": "Suspicious module script with potential backdoor functionality",
+        "DetectionMethod": "Name pattern matching and location",
+        "Name": "IsCommandAuthorized",
+        "Path": "game.ReplicatedStorage.Modules.IsCommandAuthorized",
+        "RiskLevel": "Medium",
+        "Type": "ModuleScript"
+    },
+    [31]: {
+        "Description": "Suspicious module script with potential backdoor functionality",
+        "DetectionMethod": "Name pattern matching and location",
+        "Name": "Remote",
+        "Path": "game.ReplicatedStorage.Modules.FriendsAPI.Remote",
+        "RiskLevel": "Medium",
+        "Type": "ModuleScript"
+    },
+    [32]: {
+        "Description": "Suspicious module script with potential backdoor functionality",
+        "DetectionMethod": "Name pattern matching and location",
+        "Name": "SetupRemotes",
+        "Path": "game.ReplicatedStorage.Modules.SetupRemotes",
+        "RiskLevel": "Medium",
+        "Type": "ModuleScript"
+    }
+}
